@@ -4,7 +4,7 @@ const countries = require('./countries.json');
 const classifyPoint = require('robust-point-in-polygon');
 
 function pointsInCountry(country, interval) {
-  
+
     const entry = countries.features.find((polygon) => polygon.properties.ADMIN === country)
 
     if(!entry || !country) throw new Error('Invalid country')
@@ -41,4 +41,4 @@ function pointsInCountry(country, interval) {
 
 }
 
-console.log(pointsInCountry('Cyprus', .1).length)
+console.log(pointsInCountry('Latvia', .1))
