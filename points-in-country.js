@@ -40,5 +40,3 @@ function pointsInCountry(country, interval) {
     return points
 
 }
-
-console.log(pointsInCountry('Latvia', .1))
