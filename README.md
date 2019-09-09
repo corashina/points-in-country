@@ -1,14 +1,13 @@
-# points-in-country [![NPM:](https://img.shields.io/npm/v/points-in-country.svg)](https://www.npmjs.com/package/points-in-country) [![Build Status](https://api.travis-ci.org/Tomasz-Zielinski/points-in-country.svg)](https://travis-ci.org/Tomasz-Zielinski/points-in-country) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Tomasz-Zielinski/points-in-country/blob/master/LICENSE)
+# points-in-country [![NPM:](https://img.shields.io/npm/v/points-in-country.svg)](https://www.npmjs.com/package/points-in-country) [![Build Status](https://api.travis-ci.org/corashina/points-in-country.svg)](https://travis-ci.org/corashina/points-in-country) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/corashina/points-in-country/blob/master/LICENSE)
 
-
-Generate points within a country
+Generate list of points within a country
 
 # Input
 Parameters: (country, interval)
 
 `country` requried
 
-`interval` default 0.1
+`interval` optional **0.1 by default**
 
 eg. `points-in-country('Russia', 1)`
 
@@ -88,4 +87,24 @@ Total countries **206**
 | Cayman Islands | Greece | Palau | Zimbabwe |  |
 
 # License
-Mit
+MIT License
+
+Copyright (c) 2019 Tomasz Zielinski
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

@@ -1,6 +1,6 @@
 {
   "name": "points-in-country",
-  "version": "1.0.0",
+  "version": "1.1.2",
   "description": "Generate list of points within country",
   "main": "points-in-country",
   "scripts": {
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Tomasz-Zielinski/points-in-country.git"
+    "url": "git+https://github.com/corashina/points-in-country.git"
   },
   "keywords": [
     "points",
@@ -26,11 +26,13 @@
   "author": "Tomasz Zielinski",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Tomasz-Zielinski/points-in-country/issues"
+    "url": "https://github.com/corashina/points-in-country/issues"
   },
-  "homepage": "https://github.com/Tomasz-Zielinski/points-in-country#readme",
+  "homepage": "https://github.com/corashina/points-in-country#readme",
   "dependencies": {
-    "robust-point-in-polygon": "^1.0.3",
+    "robust-point-in-polygon": "^1.0.3"
+  },
+  "devDependencies": {
     "tape": "^4.11.0"
   }
 }
