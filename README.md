@@ -1,6 +1,6 @@
 # points-in-country [![NPM:](https://img.shields.io/npm/v/points-in-country.svg)](https://www.npmjs.com/package/points-in-country) [![Build Status](https://api.travis-ci.org/corashina/points-in-country.svg)](https://travis-ci.org/corashina/points-in-country) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/corashina/points-in-country/blob/master/LICENSE)
 
-Generate list of points within a country
+Generate an array of points within a country
 
 # Input
 Parameters: (country, interval)
@@ -8,8 +8,6 @@ Parameters: (country, interval)
 `country` requried
 
 `interval` optional **0.1 by default**
-
-eg. `points-in-country('Russia', 1)`
 
 # Output
 Two dimensional array of points
@@ -20,7 +18,9 @@ Two dimensional array of points
     [lat, lon]
     ...
 ]
+
 ```
+
 # Usage
 ```
 const pic = require('points-in-country')
@@ -35,6 +35,12 @@ console.log(points)
 //   ... 
 // ]
 ```
+
+# Warning
+
+Passing an interval bigger than the longtitude or the  latitude of a country will produce an empty array
+
+eg. `points-in-country('Vatican', 1) === []`
 
 # Available countries
 
